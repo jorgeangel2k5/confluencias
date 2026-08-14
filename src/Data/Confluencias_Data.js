@@ -1,0 +1,122 @@
+export const CONFLUENCIAS_DATA = [
+  {
+    id: 1,
+    titulo: "Raíces Calchaquíes en la Era Digital",
+    categoria: "Música & Electrónica",
+    etiqueta: "Música",
+    imagen: "PEGA_AQUI_TU_URL_O_RUTA_1",
+    resumen: "Un cruce sonoro entre coplas ancestrales, vidalas del cerro y paisajes sonoros electrónicos.",
+    descripcion: "Esta propuesta explora el diálogo entre el canto con caja de los Valles Calchaquíes y la síntesis sonora moderna. Coplera e ingenieros de sonido colaboran para crear atmósferas envolventes donde la tradición oral tucumana se transforma en ritmos contemporáneos.",
+    ubicacion: "San Miguel de Tucumán",
+    artista: "Colectivo Sonoro NOA",
+    anio: "2025"
+  },
+  {
+    id: 2,
+    titulo: "Murales de la Zafra Interactivos",
+    categoria: "Arte Urbano & Tecnología",
+    etiqueta: "Cine/Teatro",
+    imagen: "PEGA_AQUI_TU_URL_O_RUTA_2",
+    resumen: "Pintura mural sobre el trabajo azucarero que cobra vida al ser escaneada con el teléfono.",
+    descripcion: "Un recorrido visual por las paredes del Gran San Miguel donde la épica azucarera y la historia obrera se proyectan en animación 3D mediante realidad aumentada, uniendo técnica pictórica tradicional con diseño digital.",
+    ubicacion: "Concepción / Bella Vista",
+    artista: "Red de Muralistas Tucumanos + Lab Digital",
+    anio: "2024"
+  },
+  {
+    id: 3,
+    titulo: "Sinfonía del Lapacho en Flor",
+    categoria: "Interdisciplinario",
+    etiqueta: "Música",
+    imagen: "PEGA_AQUI_TU_URL_O_RUTA_3",
+    resumen: "Performance de la Orquesta Estable junto a mapeo de luces y proyecciones inmersivas.",
+    descripcion: "Presentada en el marco del Septiembre Musical, esta obra entrelaza instrumentos orquestales, danza folklórica contemporánea y un mapping lumínico interactivo sobre las fachadas históricas de la ciudad.",
+    ubicacion: "Teatro San Martín",
+    artista: "Elenco Multidisciplinario Tucumán",
+    anio: "2025"
+  },
+  {
+    id: 4,
+    titulo: "Telares del Valle & Modelado 3D",
+    categoria: "Artesanías & Vanguardia",
+    etiqueta: "Arte",
+    imagen: "PEGA_AQUI_TU_URL_O_RUTA_4",
+    resumen: "Esculturas que combinan lana rústica tejida a mano con estructuras impresas en resina biodegradable.",
+    descripcion: "Artistas textiles de Tafí del Valle trabajan junto a diseñadores industriales para reinterpretar los patrones geométricos de las culturas rupestres del noroeste argentino mediante fabricación digital.",
+    ubicacion: "Tafí del Valle",
+    artista: "Colectivo Rupha",
+    anio: "2026"
+  },
+  {
+    id: 5,
+    titulo: "Mitología Diaguita en Voxel Art",
+    categoria: "Videojuegos & Patrimonio",
+    etiqueta: "Arte",
+    imagen: "PEGA_AQUI_TU_URL_O_RUTA_5",
+    resumen: "Modelado 3D e interactividad que recrea la leyenda de la Pachamama y el Yastay.",
+    descripcion: "Proyecto educativo interactivo donde la cosmogonía diaguita-calchaquí se adapta a entornos virtuales navegables, orientados a la divulgación cultural para nuevas generaciones.",
+    ubicacion: "Amaicha del Valle",
+    artista: "Estudio Yaguar 3D",
+    anio: "2025"
+  },
+  {
+    id: 6,
+    titulo: "Voces del Aconquija",
+    categoria: "Poesía & Bioarte",
+    etiqueta: "Arte",
+    imagen: "PEGA_AQUI_TU_URL_O_RUTA_6",
+    resumen: "Generación de textos poéticos impulsados por datos ambientales de la selva de yungas.",
+    descripcion: "Sensores colocados en el Parque Nacional Aconquija capturan humedad, viento y temperatura para traducirlos en versos interactivos en homenaje a los grandes poetas tucumanos del siglo XX.",
+    ubicacion: "Parque Nacional Aconquija",
+    artista: "Laboratorio Literario de las Yungas",
+    anio: "2024"
+  },
+  {
+    id: 7,
+    titulo: "Retratos de la Tierra Ferrosa",
+    categoria: "Fotografía & Cerámica",
+    etiqueta: "Arte",
+    imagen: "PEGA_AQUI_TU_URL_O_RUTA_7",
+    resumen: "Fotografías impresas mediante emulsión fotosensible sobre placas de barro cocido.",
+    descripcion: "Fusionando el arte ancestral de la alfarería con la fotografía analógica, esta serie retrata los rostros de artesanos y agricultores locales en la propia tierra que trabajan día a día.",
+    ubicacion: "Lules",
+    artista: "Taller Urpila",
+    anio: "2025"
+  },
+  {
+    id: 8,
+    titulo: "Ecos del Ferrocarril: Paisaje Sonoro",
+    categoria: "Arte Sonoro & Instalación",
+    etiqueta: "Música",
+    imagen: "https://www.eltucumano.com/fotos/notas/2017/07/14/241699_20170714143229.jpg",
+    resumen: "Instalación auditiva que revive la memoria industrial de los talleres ferroviarios de Tafí Viejo.",
+    descripcion: "A partir de grabaciones de campo, metalofonía y testimonios de antiguos trabajadores, se crea una obra envolvente en canales múltiples que reconstruye el ritmo cotidiano del tren.",
+    ubicacion: "Tafí Viejo",
+    artista: "Colectivo Rieles Sonoros",
+    anio: "2024"
+  },
+  {
+    id: 9,
+    titulo: "Danza Botánica: Cuerpo y Selva",
+    categoria: "Danza Contemporánea",
+    etiqueta: "Cine/Teatro",
+    imagen: "PEGA_AQUI_TU_URL_O_RUTA_9",
+    resumen: "Performance de movimiento orgánico inspirada en el crecimiento de la vegetación de yungas.",
+    descripcion: "Bailarines locales exploran el movimiento corporal en relación con la biodiversidad del cerro San Javier, acompañados por una iluminación dinámica que simula el filtrado del sol en el follaje.",
+    ubicacion: "Yerba Buena / San Javier",
+    artista: "Compañía Yunga Danza",
+    anio: "2026"
+  },
+  {
+    id: 10,
+    titulo: "Luminarias de la Casa Histórica",
+    categoria: "Proyección & Mapeo 3D",
+    etiqueta: "Arte",
+    imagen: "PEGA_AQUI_TU_URL_O_RUTA_10",
+    resumen: "Espectáculo audiovisual proyectado sobre la fachada del Monumento Histórico Nacional.",
+    descripcion: "Intervención lumínica de alta resolución que recorre los hitos clave de 1816 combinando ilustraciones animadas, sonido cinematográfico y actuación en vivo.",
+    ubicacion: "San Miguel de Tucumán",
+    artista: "Estudio de Mapeo Bicentenario",
+    anio: "2025"
+  }
+];
