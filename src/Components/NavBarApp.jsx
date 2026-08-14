@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 const NavBarApp = () => {
   return (
-    <nav className="bg-red-800 text-2xl text-amber-500">
+    <nav className="bg-red-800 text-2xl text-amber-400 font-bold">
       <ul className="flex p-2 justify-center gap-5">
         <li className="inline-block transition-transform duration-150 hover:text-blue-700 hover:scale-105">
           <Link to="/">Home</Link>
