@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams, Link } from 'react-router'
-import { CONFLUENCIAS_DATA } from '../data/Confluencias_Data'
+import { CONFLUENCIAS_DATA } from '../Data/confluencias_data'
 
 export default function Detalle() {
   // 1. Obtenemos el ID del proyecto desde la URL (/detalle/:id)
