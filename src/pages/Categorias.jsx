@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router'
-import { CONFLUENCIAS_DATA } from '../Data/confluencias_data'
-
+import { CONFLUENCIAS_DATA } from "../data/confluencias_data.js";
 export default function Categorias() {
   const [etiqueta, setEtiqueta] = useState('Todas')
 
