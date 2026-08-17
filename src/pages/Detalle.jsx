@@ -1,20 +1,20 @@
 import React from 'react'
 import { useParams, Link } from 'react-router'
 import { CONFLUENCIAS_DATA } from "../data/confluencias_data.js";
+
 export default function Detalle() {
-  // 1. Obtenemos el ID del proyecto desde la URL (/detalle/:id)
-  const { id } = useParams()
+const { id } = useParams()
 
-  // 2. Buscamos el proyecto en los datos (convertimos id a número)
-  const obra = CONFLUENCIAS_DATA.find((item) => item.id === Number(id))
+  
+const obra = CONFLUENCIAS_DATA.find((item) => item.id === Number(id))
 
-  // Si alguien escribe un ID que no existe en la URL
+  
   if (!obra) {
     return (
       <div className="max-w-4xl mx-auto py-16 px-6 text-center text-white">
         <h2 className="text-2xl font-bold mb-4">Proyecto no encontrado</h2>
         <Link to="/categorias" className="text-amber-500 font-bold hover:underline">
-          ← Volver a Categorías
+          ⬅️Volver a Categorías
         </Link>
       </div>
     )
@@ -23,15 +23,14 @@ export default function Detalle() {
   return (
     <div className="max-w-4xl mx-auto py-8 px-6 text-slate-200">
       
-      {/* 1. Botón Volver */}
+      
       <Link 
         to="/categorias" 
-        className="inline-block text-xs font-bold text-amber-500 hover:underline mb-6"
-      >
-        ← Volver a Categorías
+        className="inline-block text-xs font-bold text-amber-500 hover:underline mb-6">
+        ⬅️ Volver a Categorías
       </Link>
 
-      {/* 2. Encabezado */}
+      
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-2">
           <span className="text-xs font-bold text-amber-500 uppercase tracking-wider">
@@ -52,7 +51,7 @@ export default function Detalle() {
         </p>
       </div>
 
-      {/* 3. Imagen Destacada */}
+      
       <div className="w-full h-64 md:h-80 bg-zinc-800 rounded-2xl overflow-hidden mb-8 border border-zinc-700">
         <img 
           src={obra.imagen} 
@@ -61,14 +60,14 @@ export default function Detalle() {
         />
       </div>
 
-      {/* 4. Resumen Destacado */}
+      
       <div className="bg-amber-950/20 border border-amber-500/30 p-4 rounded-xl mb-8">
         <p className="text-amber-200 text-xs md:text-sm font-medium leading-relaxed">
-          {obra.resumen}
+          {obra.descripcion}
         </p>
       </div>
 
-      {/* 5. Estructura Principal: Descripción + Ficha Técnica */}
+      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         
         {/* Columna Izquierda: Descripción Larga */}
@@ -81,7 +80,7 @@ export default function Detalle() {
           </p>
         </div>
 
-        {/* Columna Derecha: Ficha Técnica */}
+        
         <div className="bg-zinc-900 border border-zinc-800 p-5 rounded-xl h-fit space-y-4">
           <h3 className="font-bold text-white text-sm border-b border-zinc-800 pb-2">
             Ficha Técnica
@@ -89,7 +88,7 @@ export default function Detalle() {
 
           <div>
             <span className="text-[10px] text-zinc-500 uppercase font-bold block">
-              Artista / Colectivo
+              Artista
             </span>
             <span className="text-xs font-semibold text-amber-400">
               {obra.artista}
