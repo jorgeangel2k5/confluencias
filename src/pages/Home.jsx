@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <div className='w-full'>
 
-<section className="bg-gray-950 py-12 px-6 w-full text-center">
+<section className="bg-gray-950 py-12 px-6 wl-ful text-center">
   <h1 className="text-4xl font-bold text-zinc-200 m-0">
     Confluencias Culturales Tucumán
   </h1>
 
   <p className="text-lg md:text-xl font-medium text-amber-500 mt-2">
-    Un espacio digital dedicado al cruce entre el arte, la tradición folklórica y la tecnología en la provincia de Tucumán.
+    Un espacio digital dedicado al cruce entre el arte, la tradición folklórica y el Cine/Teatrol en la provincia de Tucumán.
   </p>
 
   <p className="text-sm md:text-base text-zinc-400 mt-4 max-w-3xl mx-auto leading-relaxed">
