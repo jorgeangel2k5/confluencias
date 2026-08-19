@@ -1,10 +1,8 @@
 import React from 'react'
 
-
 const Sobre = () => {
   return (
-    
-<div className="flex justify-center items-center w-full p-4">
+    <div className="flex justify-center items-center w-full p-4">
       <div className="max-w-2xl w-full bg-zinc-800 p-6 rounded-lg text-white">
         
         <h1 className="text-2xl font-bold text-amber-500 mb-4">
@@ -16,14 +14,17 @@ const Sobre = () => {
         </p>
 
         <div className="bg-zinc-900 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-white mb-2">
+          <h2 className="text-lg font-bold text-white mb-4">
             Sobre el creador
           </h2>
-          <p className="text-zinc-300 leading-relaxed">
-            Hola, soy el desarrollador de esta página. Estoy aprendiendo programación web y construí este proyecto utilizando React y Tailwind CSS para poner en práctica mis conocimientos.
-          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <img className="rounded-full w-40 h-40 object-cover" src="/perfil.jpg"  alt="perfil"/>
+            <p className="text-zinc-300 leading-relaxed">
+              Hola, soy el desarrollador de esta página. Estoy aprendiendo programación web y construí este proyecto utilizando React y Tailwind CSS para poner en práctica mis conocimientos.
+            </p>
+          </div>
         </div>
-
         <h3 className="text-lg font-bold text-amber-500 mb-2">
           Tecnologías usadas:
         </h3>
@@ -35,8 +36,6 @@ const Sobre = () => {
 
       </div>
     </div>
-        
-      
   )
 }
 
