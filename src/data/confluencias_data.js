@@ -64,7 +64,7 @@ export const CONFLUENCIAS_DATA = [
     titulo: "Voces del Aconquija",
     categoria: "Poesía & Bioarte",
     etiqueta: "Arte",
-    imagen: "https://www.google.com/imgres?q=voces%20del%20aconquija%20Sensores%20colocados%20en%20el%20Parque%20Nacional%20Aconquija&imgurl=https%3A%2F%2Fmedia.lv12.com.ar%2Fp%2F7d05861f06e5fcaaa0a53bbf15dd7bda%2Fadjuntos%2F261%2Fimagenes%2F001%2F751%2F0001751093%2F1200x0%2Fsmart%2Fimagepng.png&imgrefurl=https%3A%2F%2Fwww.lv12.com.ar%2Fparque-nacional%2Fparque-nacional-aconquija-todo-un-lugar-descubrir-n110131&docid=M4JRW8fprCYIFM&tbnid=G3gkzlOBn-fy0M&vet=12ahUKEwiBqYLM0KiWAxWJJbkGHbnlPDEQnPAOegUIjwEQAA..i&w=1200&h=675&hcb=2&ved=2ahUKEwiBqYLM0KiWAxWJJbkGHbnlPDEQnPAOegUIjwEQAA#sv=CAMSXhoyKhBlLWNOalA5LXNsczVQbW1NMg5jTmpQOS1zbHM1UG1tTToOc0lRaTZBZ1Q4RjlySU0gBCokCg5HM2dremxPQm4tZnkwTRIQZS1jTmpQOS1zbHM1UG1tTRgAMAEYByCM6I-CC0oIEAEYASABKAE",
+    imagen: "https://www.comunicaciontucuman.gob.ar/fotos/cache/notas/2026/04/21/730x473_260421134231_46150.jpg",
     resumen: "Generación de textos poéticos impulsados por datos ambientales de la selva de yungas.",
     descripcion: "Sensores colocados en el Parque Nacional Aconquija capturan humedad, viento y temperatura para traducirlos en versos interactivos en homenaje a los grandes poetas tucumanos del siglo XX.",
     ubicacion: "Parque Nacional Aconquija",

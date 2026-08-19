@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import NavBarApp from '../Components/NavBarApp'
-import FooterApp from '../Components/FooterApp'
+
 
 const NotFound = () => {
   return (

@@ -6,7 +6,7 @@ export default function Detalle() {
 const { id } = useParams()
 
   
-const obra = CONFLUENCIAS_DATA.find((item) => item.id === Number(id))
+const obra = CONFLUENCIAS_DATA.find((item) => String(item.id) === String(id))
 
   
   if (!obra) {
