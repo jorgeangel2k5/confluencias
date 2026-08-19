@@ -3,7 +3,7 @@ import NavBarApp from '../Components/NavBarApp'
 import FooterApp from '../Components/FooterApp'
 const ProductScreen = () => {
   return (
-   <div></div>
+  
     
   )
 }

@@ -70,8 +70,8 @@ const obra = CONFLUENCIAS_DATA.find((item) => item.id === Number(id))
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         
-        {/* Columna Izquierda: Descripción Larga */}
-        <div className="md:col-span-2 space-y-4">
+        
+        <div className="md:col-span-2 space-y-6">
           <h2 className="text-xl font-bold text-white border-b border-zinc-800 pb-2">
             Sobre la propuesta
           </h2>
