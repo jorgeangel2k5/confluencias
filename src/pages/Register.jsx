@@ -13,7 +13,7 @@ const Register = () => {
 
   const formSubmit = (data) => {
     console.log("Datos enviados:", data)
-    navegacion("/")
+    navegacion("/login")
   }
 
   return (

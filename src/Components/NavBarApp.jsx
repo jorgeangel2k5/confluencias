@@ -41,7 +41,12 @@ const NavBarApp = () => {
             <span>Nosotros</span>
           </NavLink>
         </li>
-
+<li className="transition-transform duration-150 hover:scale-105 hover:text-white">
+          <NavLink to="/register" className="flex items-center gap-2">
+            <SiTrustpilot className="text-xl" />
+            <span>Registrarse</span>
+          </NavLink>
+        </li>
       </ul>
     </nav>
   )
