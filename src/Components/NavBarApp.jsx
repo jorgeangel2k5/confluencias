@@ -7,6 +7,7 @@ import { RxHome } from "react-icons/rx"
 import { LuBookImage } from "react-icons/lu"
 import { TbWorldSearch } from "react-icons/tb"
 import { SiTrustpilot } from "react-icons/si"
+import { FaUserEdit } from "react-icons/fa"
 
 const NavBarApp = () => {
   return (
@@ -43,7 +44,7 @@ const NavBarApp = () => {
         </li>
 <li className="transition-transform duration-150 hover:scale-105 hover:text-white">
           <NavLink to="/register" className="flex items-center gap-2">
-            <SiTrustpilot className="text-xl" />
+            <FaUserEdit  className="text-xl" />
             <span>Registrarse</span>
           </NavLink>
         </li>
