@@ -1,3 +1,6 @@
+
+
+
 import React from 'react'
 import { NavLink } from 'react-router'
 import { RxHome } from "react-icons/rx"
@@ -11,6 +14,7 @@ const NavBarApp = () => {
       <ul className="flex flex-wrap items-center justify-center p-3 gap-4 sm:gap-6 text-base md:text-lg">
         
         <li className="transition-transform duration-150 hover:scale-105 hover:text-white">
+        
           <NavLink to="/" className="flex items-center gap-2">
             <RxHome className="text-xl" />
             <span>Inicio</span>
