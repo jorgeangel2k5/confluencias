@@ -1,4 +1,3 @@
-
 import { useForm } from "react-hook-form"
 import { useNavigate } from 'react-router'
 
@@ -8,11 +7,14 @@ const Register = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
-  } = useForm()
+    formState: { errors, isSubmitted },
+  } = useForm({
+    mode: "onSubmit" 
+  })
 
-  const formSubmit = (data) => {
-    console.log("Datos enviados:", data)
+  // 
+  const onSubmit = (data) => {
+    console.log("Datos válidos enviados:", data)
     navegacion("/login")
   }
 
@@ -24,9 +26,9 @@ const Register = () => {
         </header>     
 
         <section>
-          <form onSubmit={handleSubmit(formSubmit)} className="flex flex-col text-left gap-3">
+          <form onSubmit={handleSubmit(onSubmit)} noValidate className="flex flex-col text-left gap-3">
             
-           
+            
             <div>
               <label className="text-amber-50 block mb-1">Nombre: </label>
               <input 
@@ -44,7 +46,7 @@ const Register = () => {
               {errors.nombre && <p className="text-red-400 text-sm mt-1">{errors.nombre.message}</p>}
             </div>
 
-         
+            
             <div>
               <label className="text-amber-50 block mb-1">Apellido: </label>
               <input 
@@ -62,7 +64,6 @@ const Register = () => {
               {errors.apellido && <p className="text-red-400 text-sm mt-1">{errors.apellido.message}</p>}
             </div>
 
-           
             <div>
               <label className="text-amber-50 block mb-1">Correo: </label>
               <input 
@@ -80,7 +81,7 @@ const Register = () => {
               {errors.correo && <p className="text-red-400 text-sm mt-1">{errors.correo.message}</p>}
             </div>
 
-          
+           
             <div>
               <label className="text-amber-50 block mb-1">Contraseña: </label>
               <input 
